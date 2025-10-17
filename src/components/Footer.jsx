@@ -1,6 +1,6 @@
 import React from "react";
 import hanuman from "../assets/punrasar.jpeg";
-import { Instagram, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <span className="font-bold">Developed by JaikishanS Kularia</span>
               <a href="https://github.com/jksuthar0303" target="_blank" rel="noopener noreferrer" className="hover:text-white" title="GitHub">
-                <i className="fab fa-github text-lg"></i>
+                <Github  size={20}/>  
               </a>
               <a href="https://www.instagram.com/jaikishan__kularia" target="_blank" rel="noopener noreferrer" className="hover:text-white" title="Instagram">
                 <Instagram size={20} />
